@@ -1,0 +1,166 @@
+* {
+    background: #b9c5f4;
+    font-family: "Glass Antiqua", cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow: hidden;        
+}
+
+.logo {
+    position: relative;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+.text-area {
+    height: 400px;
+    border: none;
+    color: rgb(138, 43, 226);
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+
+::placeholder{color:black;}
+    text-area:focus {
+        outline: none;
+    }
+
+.mensaje {
+    height: 630px;
+    background: rgb(196, 176, 246);
+    background-image: url(img/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: rgb(2, 13, 75);
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btnencriptar{
+    background-color: rgb(196, 176, 246);
+    border: 1px solid rgb(138, 43, 226);
+    border-radius: 24px;
+    color: rgb(6, 6, 116);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btndesencriptar {
+    background: rgb(196, 176, 246);
+    border: 1px solid rgb(138, 43, 226);
+    border-radius: 24px;
+    color: rgb(6, 6, 116);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.copiar {
+    border: 1px solid rgb(138, 43, 226);
+    border-radius: 24px;
+    color: rgb(6, 6, 116);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+}
+
+.información {
+    color: rgb(6, 6, 116);
+    font-size: 18px;
+}
+
+@media screen and (min-width: 750px){
+
+    main {
+        display: flex;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+
+    .text-area {
+        width: 900px;
+        height: 300px;
+        border: none;
+        color: rgb(138, 43, 226);
+        margin-top: 30px;
+        padding: 2px;
+        text-transform: lowercase;
+    }
+
+    .mensaje {
+        height: 500px;
+        width: 480px;
+        background: rgb(196, 176, 246);
+        background-image: url(img/Muñeco.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        border: none;
+        border-radius: 24px;
+        color: rgb(2, 13, 75);
+        margin-left: 88px;
+        margin-top: 20px;
+        padding-left: 10px;
+        margin-right: 50px;
+        position: fixed;
+    }
+
+    .btnencriptar{
+        background-color: rgb(196, 176, 246);
+        border: 1px solid rgb(138, 43, 226);
+        border-radius: 24px;
+        color: rgb(6, 6, 116);
+        cursor: pointer;
+        height: 67px;
+        width: 328px;
+        margin-left: 80px;
+    }
+    
+    .btndesencriptar {
+        background: rgb(196, 176, 246);
+        border: 1px solid rgb(138, 43, 226);
+        border-radius: 24px;
+        color: rgb(6, 6, 116);
+        cursor: pointer;
+        height: 67px;
+        margin-left: 30px;
+        width: 328px;
+    }
+    
+    .copiar {
+        border: 1px solid rgb(138, 43, 226);
+        border-radius: 24px;
+        color: rgb(6, 6, 116);
+        cursor: pointer;
+        height: 67px;
+        margin-left: 175px;
+        margin-top: 558px;
+        position: absolute;
+        width: 336px;
+    }
+}
